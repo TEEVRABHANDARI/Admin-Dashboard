@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/ab2418d925.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="dashboard">
+        <h3 class="inside hero-heading"><i class="fa-solid fa-bars"></i>Dashboard</h3>
+
+        <div class="symbols"> 
+            <div class="inside"><i class="fa-solid fa-house"></i><p>Home</p></div>
+            <div class="inside"><i class="fa-regular fa-user"></i><p>Profile</p></div> 
+            <div class="inside"><i class="fa-solid fa-message"></i><p>Message</p></div> 
+            <div class="inside"><i class="fa-regular fa-clock"></i><p>History</p></div> 
+            <div class="inside"><i class="fa-solid fa-list-check"></i><p>Task</p></div> 
+            <div class="inside"><i class="fa-solid fa-people-group"></i><p>Communities</p></div> 
+            <br>
+            <br>
+            <br>
+            <div class="inside"><i class="fa-solid fa-gear"></i><p>Settings</p></div>
+            <div class="inside"><i class="fa-regular fa-circle-question"></i><p>Support</p></div> 
+            <div class="inside"><i class="fa-solid fa-user-shield"></i><p>Privacy</p></div> 
+        </div>
+    </div>
+    <div class="maincontent">
+        <div class="navbar">
+            <div class="searchBar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="search-bar"></div>
+                <i class="fa-solid fa-bell" id="notificationBell"></i>
+                <img src="./images.jpg" alt="avatar.img" class="searchImage">
+                <p style="margin-left: 20px; font-weight: 700;">Jeff Bezos</p>
+            </div>
+
+            <div>
+                <img src="./images.jpg" alt="avatar.img" id="Profile">
+                <div id="Profile">Hi,there,<br><h1>Jeff Bezos(@JeffBezos)</h1></div>
+            </div>
+
+            <div class="tools">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+        
+        <div class="gridWithFlex">
+            <div>
+                <h2 style="margin: 15px;">Your Projects</h2>
+                <div class="grid">
+                    <div class="child child1"><p class="childContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quibusdam sequi placeat?</p></div>
+                    <div class="child child2"><p class="childContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quibusdam sequi placeat?</p></div>
+                    <div class="child child3"><p class="childContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quibusdam sequi placeat?</p></div>
+                    <div class="child child4"><p class="childContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quibusdam sequi placeat?</p></div>
+                    <div class="child child5"><p class="childContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quibusdam sequi placeat?</p></div>
+                    <div class="child child6"><p class="childContent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quibusdam sequi placeat?</p></div>
+                
+                </div>
+            </div>
+            <div>
+                <div style="align-items: center; display: flex; flex-direction: column;">
+                    <h2 style="margin: 15px;">Announcements</h2>
+                    <div class="annouceCard">
+                        <div class="card card1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et non consequuntur magnam!</div>
+                        <div class="card card2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque vel quasi necessitatibus?</div>
+                    </div>
+                    <h2 style="margin-top: 15px;">Trending</h2>
+                    <div class="annouceCard">
+                        <div class="card card1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et non consequuntur magnam!</div>
+                        <div class="card card2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque vel quasi necessitatibus?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
